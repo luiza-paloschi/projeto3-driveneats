@@ -10,39 +10,39 @@
     <body>
         <div class="header">
                 <p class="main title">DrivenEats</p>
-                <p class="secondary sub">Sua comida em minutos</p>
+                <p class="secondary sub">Sua comida em 6 minutos</p>
         </div>
         <div class="content">
-            <div class="row">
+            <div class="row food_row">
                 <div class="legenda">
                     <h1 class="title">Primeiro, seu prato</h1>
                 </div>
                 <div class="options">
-                    <div class="card food">
+                    <div class="card food" id="a" onclick="selectFood(this)">
                         <img src="images_food/maxresdefault.jpg" />
                         <p class="sub card_title">Pizza de sushi</p>
                         <p class="sub card_subtitle">O melhor de dois mundos</p>
                         <p class="sub card_price">R$ 30,99</p>
                     </div>
-                    <div class="card food">
+                    <div class="card food" onclick="selectFood(this)">
                         <img src="images_food/cuscuz-paulista-4.jpeg" />
                         <p class="sub card_title">Cuzcuz-paulista</p>
                         <p class="sub card_subtitle">Tão bom quanto sua aparência</p>
                         <p class="sub card_price">R$ 27,50</p>
                     </div>
-                    <div class="card food">
+                    <div class="card food" onclick="selectFood(this)">
                         <img src="images_food/tac3a7a_cereja_flor.webp" />
                         <p class="sub card_title">Taça salgada</p>
                         <p class="sub card_subtitle">Acompanha colesterol alto </p>
                         <p class="sub card_price">R$ 18,90</p>
                     </div>
-                    <div class="card food">
+                    <div class="card food" onclick="selectFood(this)">
                         <img src="images_food/hamburguerarroz.png" />
                         <p class="sub card_title">McArroz</p>
                         <p class="sub card_subtitle">Troque o carboidrato (por outro) </p>
                         <p class="sub card_price">R$ 19,90</p>
                     </div>
-                    <div class="card food">
+                    <div class="card food" onclick="selectFood(this)">
                         <img src="images_food/chocofritas.png" />
                         <p class="sub card_title">Chocofritas</p>
                         <p class="sub card_subtitle">Melhor que Romeu e Julieta</p>
@@ -50,36 +50,36 @@
                     </div>
                 </div>
             </div>
-            <div class="row">
+            <div class="row drink_row">
                 <div class="legenda">
                     <h1 class="title">Agora, sua bebida</h1>
                 </div>
                 <div class="options">
-                    <div class="card drink">
+                    <div class="card drink" onclick="selectDrink(this)">
                         <img src="images_drinks/Bacon-Infused-Vodka-640x360.jpg" />
                         <p class="sub card_title">Vodka com bacon</p>
                         <p class="sub card_subtitle">Copo 250 mL</p>
                         <p class="sub card_price">R$ 24,99</p>
                     </div>
-                    <div class="card drink">
+                    <div class="card drink" onclick="selectDrink(this)">
                         <img src="images_drinks/cha_de_cogumelo.webp" />
                         <p class="sub card_title">Chá de cogumelo</p>
                         <p class="sub card_subtitle">Copo 250 mL</p>
                         <p class="sub card_price">R$ 15,00</p>
                     </div>
-                    <div class="card drink">
+                    <div class="card drink" onclick="selectDrink(this)">
                         <img src="images_drinks/moonshine-759x490.jpg" />
                         <p class="sub card_title">Moonshine</p>
                         <p class="sub card_subtitle">Garafa 375 ml </p>
                         <p class="sub card_price">R$ 25,00</p>
                     </div>
-                    <div class="card drink">
+                    <div class="card drink" onclick="selectDrink(this)">
                         <img src="images_drinks/garrafa-copo-badenbaden-chocolate.jpg" />
                         <p class="sub card_title">Cerveja de chocol...</p>
                         <p class="sub card_subtitle">Garrafa 600 mL </p>
                         <p class="sub card_price">R$ 12,50</p>
                     </div>
-                    <div class="card drink">
+                    <div class="card drink" onclick="selectDrink(this)">
                         <img src="images_drinks/11-Água-mineral.jpg" />
                         <p class="sub card_title">Água (da pia)</p>
                         <p class="sub card_subtitle">Garrafa 500 mL</p>
@@ -87,36 +87,36 @@
                     </div>
                 </div>
             </div>
-            <div class="row">
+            <div class="row dessert_row">
                 <div class="legenda">
                     <h1 class="title">Por fim, sua sobremesa</h1>
                 </div>
                 <div class="options">
-                    <div class="card drink">
+                    <div class="card dessert" onclick="selectDessert(this)">
                         <img src="images_dessert/colecao-copa-sorvete.jpg" />
                         <p class="sub card_title">Sorvete napolicopa</p>
                         <p class="sub card_subtitle">Rumo ao Hexa!!</p>
                         <p class="sub card_price">R$ 35,00</p>
                     </div>
-                    <div class="card drink">
+                    <div class="card dessert" onclick="selectDessert(this)">
                         <img src="images_dessert/hamb_doce.jpg" />
                         <p class="sub card_title">Hamburguer doce</p>
                         <p class="sub card_subtitle">Com bife de brownie</p>
                         <p class="sub card_price">R$ 23,50</p>
                     </div>
-                    <div class="card drink">
+                    <div class="card dessert" onclick="selectDessert(this)">
                         <img src="images_dessert/cheesecake.png" />
                         <p class="sub card_title">Cheesecake</p>
                         <p class="sub card_subtitle">Sabor picles </p>
                         <p class="sub card_price">R$ 25,99</p>
                     </div>
-                    <div class="card drink">
+                    <div class="card dessert" onclick="selectDessert(this)">
                         <img src="images_dessert/sundae-com-bacon-122017-1400x800.jpg" />
                         <p class="sub card_title">Sundae com bacon</p>
                         <p class="sub card_subtitle">Bacon por toda parte</p>
                         <p class="sub card_price">R$ 10,00</p>
                     </div>
-                    <div class="card drink">
+                    <div class="card dessert" onclick="selectDessert(this)">
                         <img src="images_dessert/receita-pudim-simples-facil-fazer.jpg" />
                         <p class="sub card_title">Pudim</p>
                         <p class="sub card_subtitle">Apenas pudim... será?</p>
@@ -131,5 +131,8 @@
                       <br> para fechar o pedido</p>
               </div>    
       </div>
+      <script src="script.js"></script>
+      <script type="module" src="https://unpkg.com/ionicons@5.4.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule="" src="https://unpkg.com/ionicons@5.4.0/dist/ionicons/ionicons.js"></script>
     </body>
 </html>
